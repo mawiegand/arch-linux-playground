@@ -1,0 +1,28 @@
+{
+    "advanced": true,
+    "audio": "No audio server",
+    "bootloader": "grub-install",
+    "config_version": "2.5.1",
+    "debug": false,
+    "harddrives": [
+        "/dev/sda"
+    ],
+    "hostname": "archlinux",
+    "kernels": [
+        "linux"
+    ],
+    "no_pkg_lookups": false,
+    "offline": false,
+    "packages": [
+        "dhclient"
+    ],
+    "parallel downloads": 5,
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "swap": true,
+    "timezone": "UTC",
+    "version": "2.5.1"
+}
